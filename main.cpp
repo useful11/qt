@@ -1,4 +1,4 @@
-#include "board.h"
+#include "boar.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
