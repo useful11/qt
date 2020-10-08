@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>rules</class>
+ <widget class="QDialog" name="rules">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>497</width>
+    <height>177</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>-10</y>
+     <width>441</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>将（帅）：可吃除兵和卒以外的任何非同一色的棋子
+仕（士）：可吃除将和帅外的任何非同一色棋子
+相（象）：可以吃除将和帅，士和仕外的任何非同一色的棋子
+马：可以吃炮，兵，卒
+车：可以吃炮，兵，卒，车，马
+炮：可吃除马外的任何非同色的棋子
+兵（卒）：只能吃对方的将或帅</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
